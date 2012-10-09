@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831B9825499A4F27BBB3E004 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E3B507DAC8481E8059804E /* libPods.a */; };
+		E2A05F0A15E753CE0027F4EC /* SendGridClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A05F0915E753CE0027F4EC /* SendGridClient.m */; };
+		E2AD861E15E361E700064F7A /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD861D15E361E700064F7A /* PullRefreshTableViewController.m */; };
+		E2AD862215E3622200064F7A /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD862115E3622200064F7A /* arrow.png */; };
+		E2AD862415E3642E00064F7A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AD862315E3642E00064F7A /* QuartzCore.framework */; };
+		E2B3074D15ECFE8E0018D111 /* RocketModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3074C15ECFE8E0018D111 /* RocketModule.m */; };
+		E2F8526C15D7A923002605F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8526B15D7A923002605F6 /* UIKit.framework */; };
+		E2F8526E15D7A923002605F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8526D15D7A923002605F6 /* Foundation.framework */; };
+		E2F8527015D7A923002605F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8526F15D7A923002605F6 /* CoreGraphics.framework */; };
+		E2F8527615D7A923002605F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2F8527415D7A923002605F6 /* InfoPlist.strings */; };
+		E2F8527815D7A923002605F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8527715D7A923002605F6 /* main.m */; };
+		E2F8527C15D7A923002605F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8527B15D7A923002605F6 /* AppDelegate.m */; };
+		E2F8527F15D7A923002605F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F8527D15D7A923002605F6 /* MainStoryboard.storyboard */; };
+		E2F8528215D7A923002605F6 /* RocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8528115D7A923002605F6 /* RocketViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6E3B507DAC8481E8059804E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A05F0815E753CE0027F4EC /* SendGridClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendGridClient.h; sourceTree = "<group>"; };
+		E2A05F0915E753CE0027F4EC /* SendGridClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendGridClient.m; sourceTree = "<group>"; };
+		E2AD861C15E361E700064F7A /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		E2AD861D15E361E700064F7A /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		E2AD862115E3622200064F7A /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		E2AD862315E3642E00064F7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2B3074B15ECFE8E0018D111 /* RocketModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocketModule.h; sourceTree = "<group>"; };
+		E2B3074C15ECFE8E0018D111 /* RocketModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RocketModule.m; sourceTree = "<group>"; };
+		E2F8526715D7A923002605F6 /* Copy Rocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Rocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F8526B15D7A923002605F6 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2F8526D15D7A923002605F6 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F8526F15D7A923002605F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2F8527315D7A923002605F6 /* Copy Rocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Copy Rocket-Info.plist"; sourceTree = "<group>"; };
+		E2F8527515D7A923002605F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2F8527715D7A923002605F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F8527915D7A923002605F6 /* Copy Rocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Copy Rocket-Prefix.pch"; sourceTree = "<group>"; };
+		E2F8527A15D7A923002605F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F8527B15D7A923002605F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F8527E15D7A923002605F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E2F8528015D7A923002605F6 /* RocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RocketViewController.h; sourceTree = "<group>"; };
+		E2F8528115D7A923002605F6 /* RocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketViewController.m; sourceTree = "<group>"; };
+		F427CDD986134D60B6F873BB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F8526415D7A923002605F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AD862415E3642E00064F7A /* QuartzCore.framework in Frameworks */,
+				E2F8526C15D7A923002605F6 /* UIKit.framework in Frameworks */,
+				E2F8526E15D7A923002605F6 /* Foundation.framework in Frameworks */,
+				E2F8527015D7A923002605F6 /* CoreGraphics.framework in Frameworks */,
+				831B9825499A4F27BBB3E004 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2AD862015E3621100064F7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD862115E3622200064F7A /* arrow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2F8525C15D7A923002605F6 = {
+			isa = PBXGroup;
+			children = (
+				E2F8527115D7A923002605F6 /* Copy Rocket */,
+				E2F8526A15D7A923002605F6 /* Frameworks */,
+				E2F8526815D7A923002605F6 /* Products */,
+				E2AD862015E3621100064F7A /* Resources */,
+				F427CDD986134D60B6F873BB /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F8526815D7A923002605F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8526715D7A923002605F6 /* Copy Rocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F8526A15D7A923002605F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2AD862315E3642E00064F7A /* QuartzCore.framework */,
+				E2F8526B15D7A923002605F6 /* UIKit.framework */,
+				E2F8526D15D7A923002605F6 /* Foundation.framework */,
+				E2F8526F15D7A923002605F6 /* CoreGraphics.framework */,
+				B6E3B507DAC8481E8059804E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F8527115D7A923002605F6 /* Copy Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3074B15ECFE8E0018D111 /* RocketModule.h */,
+				E2B3074C15ECFE8E0018D111 /* RocketModule.m */,
+				E2AD861C15E361E700064F7A /* PullRefreshTableViewController.h */,
+				E2AD861D15E361E700064F7A /* PullRefreshTableViewController.m */,
+				E2A05F0815E753CE0027F4EC /* SendGridClient.h */,
+				E2A05F0915E753CE0027F4EC /* SendGridClient.m */,
+				E2F8528015D7A923002605F6 /* RocketViewController.h */,
+				E2F8528115D7A923002605F6 /* RocketViewController.m */,
+				E2F8527A15D7A923002605F6 /* AppDelegate.h */,
+				E2F8527B15D7A923002605F6 /* AppDelegate.m */,
+				E2F8527D15D7A923002605F6 /* MainStoryboard.storyboard */,
+				E2F8527215D7A923002605F6 /* Supporting Files */,
+			);
+			path = "Copy Rocket";
+			sourceTree = "<group>";
+		};
+		E2F8527215D7A923002605F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8527315D7A923002605F6 /* Copy Rocket-Info.plist */,
+				E2F8527415D7A923002605F6 /* InfoPlist.strings */,
+				E2F8527715D7A923002605F6 /* main.m */,
+				E2F8527915D7A923002605F6 /* Copy Rocket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F8526615D7A923002605F6 /* Copy Rocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F8528515D7A923002605F6 /* Build configuration list for PBXNativeTarget "Copy Rocket" */;
+			buildPhases = (
+				E2F8526315D7A923002605F6 /* Sources */,
+				E2F8526415D7A923002605F6 /* Frameworks */,
+				E2F8526515D7A923002605F6 /* Resources */,
+				F106298DAC314C6694CF9AF4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copy Rocket";
+			productName = "Copy Rocket";
+			productReference = E2F8526715D7A923002605F6 /* Copy Rocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F8525E15D7A923002605F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Stef Thoen";
+			};
+			buildConfigurationList = E2F8526115D7A923002605F6 /* Build configuration list for PBXProject "Copy Rocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F8525C15D7A923002605F6;
+			productRefGroup = E2F8526815D7A923002605F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F8526615D7A923002605F6 /* Copy Rocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F8526515D7A923002605F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F8527615D7A923002605F6 /* InfoPlist.strings in Resources */,
+				E2F8527F15D7A923002605F6 /* MainStoryboard.storyboard in Resources */,
+				E2AD862215E3622200064F7A /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F106298DAC314C6694CF9AF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F8526315D7A923002605F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F8527815D7A923002605F6 /* main.m in Sources */,
+				E2F8527C15D7A923002605F6 /* AppDelegate.m in Sources */,
+				E2F8528215D7A923002605F6 /* RocketViewController.m in Sources */,
+				E2AD861E15E361E700064F7A /* PullRefreshTableViewController.m in Sources */,
+				E2A05F0A15E753CE0027F4EC /* SendGridClient.m in Sources */,
+				E2B3074D15ECFE8E0018D111 /* RocketModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2F8527415D7A923002605F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F8527515D7A923002605F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2F8527D15D7A923002605F6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F8527E15D7A923002605F6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F8528315D7A923002605F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2F8528415D7A923002605F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F8528615D7A923002605F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F427CDD986134D60B6F873BB /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Copy Rocket/Copy Rocket-Prefix.pch";
+				INFOPLIST_FILE = "Copy Rocket/Copy Rocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2F8528715D7A923002605F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F427CDD986134D60B6F873BB /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Copy Rocket/Copy Rocket-Prefix.pch";
+				INFOPLIST_FILE = "Copy Rocket/Copy Rocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F8526115D7A923002605F6 /* Build configuration list for PBXProject "Copy Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F8528315D7A923002605F6 /* Debug */,
+				E2F8528415D7A923002605F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F8528515D7A923002605F6 /* Build configuration list for PBXNativeTarget "Copy Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F8528615D7A923002605F6 /* Debug */,
+				E2F8528715D7A923002605F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F8525E15D7A923002605F6 /* Project object */;
+}
